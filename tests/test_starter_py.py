@@ -1,4 +1,4 @@
-from starter_py import __version__
+from python_websocket_demo import __version__
 
 
 def test_version():

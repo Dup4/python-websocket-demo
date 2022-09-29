@@ -167,10 +167,18 @@ category = "dev"
 optional = false
 python-versions = ">=3.7"
 
+[[package]]
+name = "websocket-server"
+version = "0.6.4"
+description = "A simple fully working websocket-server in Python with no external dependencies"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "ccbacfd490bb55d863161507235b1837ee01b6f4bdbc00219ded93e3ebdd322e"
+content-hash = "e04827a9e0b835b3449aa264816f69b040a679644d449cf2f78998766f06808d"
 
 [metadata.files]
 atomicwrites = [
@@ -235,4 +243,8 @@ pytest = [
 tomli = [
     {file = "tomli-2.0.1-py3-none-any.whl", hash = "sha256:939de3e7a6161af0c887ef91b7d41a53e7c5a1ca976325f429cb46ea9bc30ecc"},
     {file = "tomli-2.0.1.tar.gz", hash = "sha256:de526c12914f0c550d15924c62d72abc48d6fe7364aa87328337a31007fe8a4f"},
+]
+websocket-server = [
+    {file = "websocket_server-0.6.4-py3-none-any.whl", hash = "sha256:aca2d8f7569c82fe3e949cbae1f9d3f3035ae15f1d4048085431c94b7dfd35be"},
+    {file = "websocket_server-0.6.4.tar.gz", hash = "sha256:a8a02d575905e50f6af90bbbc37d23d7e1b027630897f0eeefed6a3fb3c22e07"},
 ]
